@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  motion-capture:
+    build:
+      context: .
+      dockerfile: .devcontainer/Dockerfile
+    container_name: kitasato-motion-capture
+    volumes:
+      - .:/workspace
+      - ./input:/workspace/input
+      - ./output:/workspace/output
+    working_dir: /workspace
+    command: /bin/bash -c "echo 'Motion Capture環境が起動しました' && tail -f /dev/null"
+    stdin_open: true
+    tty: true
+    environment:
+      - PYTHONUNBUFFERED=1
+      - DISPLAY=${DISPLAY:-:0}
+    # X11フォワーディング（オプション、可視化プレビュー用）
+    # volumes:
+    #   - /tmp/.X11-unix:/tmp/.X11-unix:rw
