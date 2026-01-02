@@ -20,9 +20,3 @@ build/
 # OS
 .DS_Store
 Thumbs.db
-
-# Project specific
-output/
-*.mp4
-*.avi
-*.mov
