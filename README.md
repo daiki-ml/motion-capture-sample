@@ -429,49 +429,6 @@ motion-capture-sample-main/
    - 「walking」「running」「exercise」などで検索
    - ダウンロードして `input` フォルダに入れてください
 
-2. **YouTube（※個人利用のみ）**
-   - 自分で撮影した動画をアップロードして使用
-   - 他人の動画の使用は著作権に注意
-
----
-
-## ライセンス
-
-このプロジェクトは教育・デモ目的で作成されています。
-
-**使用しているライブラリのライセンス:**
-- MediaPipe: Apache License 2.0
-- OpenCV: Apache License 2.0
-- Plotly: MIT License
-
-**使用条件:**
-- 個人利用・教育目的: 自由に使用可能
-- 商用利用: 各ライブラリのライセンスを確認してください
-- 再配布: このREADMEを含めてください
-
----
-
-## サポート・問い合わせ
-
-### 問題が発生した場合
-
-1. **このREADMEの「よくある質問」を確認**
-2. **GitHubのIssuesで検索**
-   - 同じ問題が報告されていないか確認
-   - https://github.com/daiki-ml/motion-capture-sample/issues
-3. **それでも解決しない場合**
-   - GitHubでIssueを作成してください
-
-### Issue作成時の情報
-
-以下の情報を含めてください:
-
-- **OS**: Windows 10 / macOS Sonoma / Ubuntu 22.04 など
-- **エラーメッセージ**: エラー全文をコピー
-- **何をしようとしていたか**: 実行したコマンド
-- **動画の情報**: 長さ、ファイルサイズ、形式
-- **スクリーンショット**: あれば添付
-
 ---
 
 ## 参考資料
@@ -485,10 +442,6 @@ motion-capture-sample-main/
 ### チュートリアル
 - [MediaPipe Pythonサンプル](https://github.com/Kazuhito00/mediapipe-python-sample)
 - [Plotly入門](https://plotly.com/python/getting-started/)
-
-### コミュニティ
-- GitHubリポジトリ: https://github.com/daiki-ml/motion-capture-sample
-- Issues: https://github.com/daiki-ml/motion-capture-sample/issues
 
 ---
 
